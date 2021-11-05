@@ -16,7 +16,8 @@ The objective is to discuss what would be the most efficient way to implement av
 ### File creation
 This would be an example of a structure for the files, inspired by the .torrent file format
 
-´´
+
+```yaml
    {
 	"path": "/img/pato.png",
 	"data": "2020-2-5T10:41:10",
@@ -27,7 +28,7 @@ This would be an example of a structure for the files, inspired by the .torrent 
 		"vq942z5t23d": "00011110"
 	}
 } 
-´´
+```
 #### About the fields
 
  - Path
